@@ -1,0 +1,2 @@
+# IdeaMagix
+Assignment for Internship
