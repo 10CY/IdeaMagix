@@ -1,2 +1,3 @@
 # IdeaMagix
-Assignment for Internship
+# Assignment for Internship
+https://afiyahospital.netlify.app
