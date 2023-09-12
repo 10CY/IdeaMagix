@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .cnt{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+} */
+.aafiya{
+    line-height:15px;
+    padding-top: 1em;
+    font-size: 2em;
+    font-weight: 600;
+
+}
+.healing{
+    font-size:1.2em;
+}
+.Opinion{
+    font-size: 1.5em;
+}
+.book{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+input{
+  /* border: 1px solid; */
+  outline: none;
+  margin-right:2em;
+  /* width: 10%; */
+  padding: .8em;
+  
+}
+input::placeholder{
+  /* color: red; */
+  padding-left: 1.5em;
+  cursor: pointer;
+  color: white;
+}
+@media(max-width:868px){
+    .nav-links{
+      display: none;
+    }
+    .fa-bars{
+      display: block;
+      cursor: pointer;
+    }
+}
+.bg-image{
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+.home-text{
+  margin: 6.5em;
+  margin-top: 10em;
+}
+.home-text h1{
+  font-weight: 600;
+}
+.home-text p{
+  font-size: 2em;
+  line-height:1.5em;
+}
+.enquire-btn{
+  /* border: 1px solid ; */
+  width: 40%;
+  padding: 10px;
+  font-size: 2em;
+  background-color: rgb(67, 146, 235);
+}
+.overview-links{
+  display: flex;
+  font-size: 1.5em;
+  padding: 10px;
+  gap: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.overview-links ul li{
+  padding-left: 3em;
+}
+.flex li {
+  margin-right: 20px;
+}
+.overview-links ul li a{
+  padding: .8em;
+}
+.overview-links ul li a:hover{
+
+  border-bottom: 3px solid rgb(67, 146, 235);
+}
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .flex li {
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
+}
+.treatment{
+  /* border: 1px solid; */
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 2em;
+}
+.treatment-text{
+  width: 55%;
+}
+.line{
+  /* background: red; */
+  border-bottom: 1px dashed blue;
+  margin: auto;
+  width: 88vw;
+}
+.line1{
+  border-bottom: 1px dashed blue;
+  /* margin: auto; */
+  width: 55vw;
+  margin-left: 8em;
+}
+.treatment-text ul{
+  list-style: circle;
+  padding-left: 2em;
+}
+.Orthopadic-doctor{
+  /* display: flex;
+  justify-content: center; */
+  background-color: rgb(198, 226, 237);
+  
+}
+.orthopadic-text{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+.doctors{
+  font-style: italic;
+}
+.hospital{
+  background-color: white;
+}
+.contact{
+  width: 100vw;
+  background-color: rgb(67, 146, 235);
+  background-color: red;
+  height: 80vh;
+}
+.line2{
+  /* background: red; */
+  border-bottom: 1px  solid red;
+  margin: auto;
+  width: 88vw;
+}
+.about-afiya{
+  width: 30vw;
+  padding: 3em;
+}
